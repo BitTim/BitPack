@@ -1,7 +1,6 @@
 const loader = require("./loader");
-const constants = require("./constants")
 
-exports.init = (express, app) =>
+exports.init = (express, app, loader) =>
 {
     app.use(express.json())
 

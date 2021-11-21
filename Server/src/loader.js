@@ -47,7 +47,9 @@ exports.generatePackageList = () =>
 }
 
 // Function to return the manifest file for the specified package
-exports.loadPackage = (packagePath, packageID) =>
+exports.loadPackage = (packageID) =>
 {
-
+    var path = constants.packagePath + packageID + "/manifest.json";
+    var data = loadJSON(path);
+    return data;
 }
