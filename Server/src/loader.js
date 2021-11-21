@@ -33,7 +33,6 @@ exports.generatePackageList = () =>
             // Push package data onto return value
             data[c].push({
                 id: f,
-                name: manifest.name,
                 latest: channelVersion
             });
         })

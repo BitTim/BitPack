@@ -1,13 +1,10 @@
 {
-    "id": "6e82a2b0-6ddc-4b44-820d-81a7876426fb",
-    "name": "Package 2",
-    "desc": "Test package number two",
+    "id": "package1",
+    "name": "Package 1",
+    "shortDesc": "Test package number one",
+    "desc": "Longer description here",
     "icon": "images/icon.png",
-    "author":
-    {
-        "id": "9f71819a-747a-448e-89e6-76f2d3fcb661",
-        "name": "BitTim"
-    },
+    "author": "BitTim",
     "images":
     [
         "images/image1.png",
@@ -19,8 +16,7 @@
     ],
     "channels":
     {
-        "stable": "1.1.0",
-        "experimental": "2.0.0"
+        "stable": "1.1.0"
     },
     "versions":
     [
@@ -37,6 +33,7 @@
                 "c"
             ],
             "warnings": [],
+            "dependencies": [],
             "updateMinVersion": "1.0.0",
             "downgradeMaxVersion": "1.0.0"
         },
@@ -53,24 +50,9 @@
                 "c"
             ],
             "warnings": [],
+            "dependencies": [],
             "updateMinVersion": "1.0.0",
             "downgradeMaxVersion": "1.0.0"
-        },
-        {
-            "version": "2.0.0",
-            "changes":
-            [
-                "Update 2"
-            ],
-            "features":
-            [
-                "a",
-                "b",
-                "c"
-            ],
-            "warnings": [],
-            "updateMinVersion": "1.1.0",
-            "downgradeMaxVersion": "1.1.0"
         }
     ]
 }
