@@ -1,0 +1,59 @@
+{
+    "id": "30c38a14-6e5b-467f-b665-db8c17e690a5",
+    "name": "Package 1",
+    "desc": "Test package number one",
+    "icon": "images/icon.png",
+    "author":
+    {
+        "id": "9f71819a-747a-448e-89e6-76f2d3fcb661",
+        "name": "BitTim"
+    },
+    "images":
+    [
+        "images/image1.png",
+        "images/image2.png"
+    ],
+    "categories": 
+    [
+        "Testing"
+    ],
+    "channels":
+    {
+        "stable": "1.1.0"
+    },
+    "versions":
+    [
+        {
+            "version": "1.0.0",
+            "changes":
+            [
+                "Initial version"
+            ],
+            "features":
+            [
+                "a",
+                "b",
+                "c"
+            ],
+            "warnings": [],
+            "updateMinVersion": "1.0.0",
+            "downgradeMaxVersion": "1.0.0"
+        },
+        {
+            "version": "1.1.0",
+            "changes":
+            [
+                "Update 1"
+            ],
+            "features":
+            [
+                "a",
+                "b",
+                "c"
+            ],
+            "warnings": [],
+            "updateMinVersion": "1.0.0",
+            "downgradeMaxVersion": "1.0.0"
+        }
+    ]
+}

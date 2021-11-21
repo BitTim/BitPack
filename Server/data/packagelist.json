@@ -1,0 +1,26 @@
+{
+	"stable": [
+		{
+			"id": "30c38a14-6e5b-467f-b665-db8c17e690a5",
+			"name": "Package 1",
+			"latest": "1.1.0"
+		},
+		{
+			"id": "6e82a2b0-6ddc-4b44-820d-81a7876426fb",
+			"name": "Package 2",
+			"latest": "1.1.0"
+		}
+	],
+	"experimental": [
+		{
+			"id": "30c38a14-6e5b-467f-b665-db8c17e690a5",
+			"name": "Package 1",
+			"latest": "1.1.0"
+		},
+		{
+			"id": "6e82a2b0-6ddc-4b44-820d-81a7876426fb",
+			"name": "Package 2",
+			"latest": "2.0.0"
+		}
+	]
+}
