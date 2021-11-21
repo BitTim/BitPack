@@ -29,7 +29,7 @@ app.get("/packages/:id/:version/:type", (req, res) => {
     const filename = id + "-" + version + "_" + type + ".zip";
     const path = constants.packagePath + id + "/" + version + "/" + filename;
     
-    res.status(200).sendFile(path);
+    res.status(200).sendFile(path, { root: "./" });
 });
 
 
