@@ -16,6 +16,24 @@ app.get("/packages/:id", (req, res) => {
     res.status(200).send(loader.loadPackage(id));
 });
 
+app.get("/packages/:id/:version", (req, res) => {
+    const { id, version } = req.params;
+    
+    const versionData = loader.loadPackage(id).versions;
+    res.status(200).send(versionData.filter((v) => v.version == version)[0]);
+});
+
+app.get("/packages/:id/:version/:type", (req, res) => {
+    const { id, version, type } = req.params;
+    
+    const filename = id + "-" + version + "_" + type + ".zip";
+    const path = constants.packagePath + id + "/" + version + "/" + filename;
+    
+    res.status(200).sendFile(path);
+});
+
+
+
 app.listen(constants.PORT, () => {
     console.log("Started on http://localhost:8080");
 });
