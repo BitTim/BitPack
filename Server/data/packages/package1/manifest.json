@@ -35,7 +35,11 @@
             "warnings": [],
             "dependencies": [],
             "updateMinVersion": "1.0.0",
-            "downgradeMaxVersion": "1.0.0"
+            "downgradeMaxVersion": "1.0.0",
+            "downloadTypes":
+            [
+                "install"
+            ]
         },
         {
             "version": "1.1.0",
@@ -52,7 +56,12 @@
             "warnings": [],
             "dependencies": [],
             "updateMinVersion": "1.0.0",
-            "downgradeMaxVersion": "1.0.0"
+            "downgradeMaxVersion": "1.0.0",
+            "downloadTypes":
+            [
+                "install",
+                "update"
+            ]
         }
     ]
 }
