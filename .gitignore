@@ -117,6 +117,11 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Visual Studio
+Client/.vs
+Client/bin/
+Client/obj/
+
 # Custom
-data/packages/packagelist.json
-data/packages/packagelist.json.bak
+Server/data/packages/packagelist.json
+Server/data/packages/packagelist.json.bak
