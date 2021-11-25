@@ -89,7 +89,7 @@ app.get("/packages/:id/:version/download/:type", (req, res) => {
     res.status(200).sendFile(path, { root: "./" });
 });
 
-
+//TODO: Calls to create and modify packages, but only with valid token
 
 app.listen(constants.PORT, () => {
     console.log("Started on http://localhost:8080");

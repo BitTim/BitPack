@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Aqua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Blue.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Chocolate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Cyberpunk.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Cyberpunk2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Emerald.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Green.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\HotCold.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Lavender.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Mono.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Nature.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Orange.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Purple.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Red.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Teal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AccentColors\Yellow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AddButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AppTheme\DarkTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\AppTheme\LightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\ButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\CheckBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\Colors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\ComboBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\HueSliderTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\Icons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\MenuButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\RadioSelectorButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\ScrollViewerTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\TextBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\TitleBarButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
