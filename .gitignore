@@ -118,10 +118,10 @@ dist
 .pnp.*
 
 # Visual Studio
-Client/.vs
-Client/bin/
-Client/obj/
+./Client/BitPack/.vs
+./Client/BitPack/bin/
+./Client/BitPack/obj/
 
 # Custom
-Server/data/packages/packagelist.json
-Server/data/packages/packagelist.json.bak
+./Server/data/packages/packagelist.json
+./Server/data/packages/packagelist.json.bak
