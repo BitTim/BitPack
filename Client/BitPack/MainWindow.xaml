@@ -174,8 +174,8 @@
 								 Margin="0, 0, 0, 16"
 								 FontSize="16"
 								 IsChecked="True"
-								 Tag="{Binding Source={StaticResource DashboardIcon}, Path=Data}"
-								 Command="{Binding DashboardViewCommand}"
+								 Tag="{Binding Source={StaticResource DiscoverIcon}, Path=Data}"
+								 Command="{Binding DiscoverViewCommand}"
 								 Style="{DynamicResource MenuButtonTheme}"/>
 
 					<RadioButton Content="Search"
@@ -183,8 +183,8 @@
 								 Height="62"
 								 Margin="0, 0, 0, 16"
 								 FontSize="16"
-								 Tag="{Binding Source={StaticResource GoalIcon}, Path=Data}"
-								 Command="{Binding GoalViewCommand}"
+								 Tag="{Binding Source={StaticResource SearchIcon}, Path=Data}"
+								 Command="{Binding SearchViewCommand}"
 								 Style="{DynamicResource MenuButtonTheme}"/>
 
 					<!--<RadioButton Content="Seasons"
