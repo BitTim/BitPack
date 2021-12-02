@@ -178,6 +178,15 @@
 								 Command="{Binding DiscoverViewCommand}"
 								 Style="{DynamicResource MenuButtonTheme}"/>
 
+					<RadioButton Content="Categories"
+								 GroupName="Menu"
+								 Height="62"
+								 Margin="0, 0, 0, 16"
+								 FontSize="16"
+								 Tag="{Binding Source={StaticResource CategoriesIcon}, Path=Data}"
+								 Command="{Binding SearchViewCommand}"
+								 Style="{DynamicResource MenuButtonTheme}"/>
+
 					<RadioButton Content="Search"
 								 GroupName="Menu"
 								 Height="62"
@@ -187,16 +196,7 @@
 								 Command="{Binding SearchViewCommand}"
 								 Style="{DynamicResource MenuButtonTheme}"/>
 
-					<!--<RadioButton Content="Seasons"
-								 GroupName="Menu"
-								 Height="62"
-								 Margin="0, 0, 0, 16"
-								 FontSize="16"
-								 Tag="{Binding Source={StaticResource SeasonIcon}, Path=Data}"
-								 Command="{Binding SeasonViewCommand}"
-								 Style="{DynamicResource MenuButtonTheme}"/>
-
-					<RadioButton Content="History"
+					<!--<RadioButton Content="History"
 								 GroupName="Menu"
 								 Height="62"
 								 Margin="0, 0, 0, 16"
@@ -241,7 +241,7 @@
 
 		<!-- Popups -->
 
-		<!--<Border Background="{DynamicResource Black}"
+		<Border Background="{DynamicResource Black}"
 				CornerRadius="8"
 				x:Name="PopupBorder"
 				Margin="16"
@@ -250,6 +250,6 @@
 				MouseLeftButtonUp="PopupBorder_MouseLeftButtonUp">
 		</Border>
 
-		<ContentControl Content="{Binding CurrentPopup}"/>-->
+		<ContentControl Content="{Binding CurrentPopup}"/>
 	</Grid>
 </Window>

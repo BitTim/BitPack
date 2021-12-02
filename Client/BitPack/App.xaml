@@ -2,6 +2,10 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:BitPack"
+             xmlns:view="clr-namespace:BitPack.MVVM.View"
+             xmlns:viewModel="clr-namespace:BitPack.MVVM.ViewModel"
+             xmlns:popupView="clr-namespace:BitPack.MVVM.View.Popups"
+             xmlns:popupViewModel="clr-namespace:BitPack.MVVM.ViewModel.Popups"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 		<ResourceDictionary>
@@ -26,6 +30,42 @@
 				<ResourceDictionary Source="Theme/ScrollViewerTheme.xaml"/>
 				<ResourceDictionary Source="Theme/ComboBoxTheme.xaml"/>
 			</ResourceDictionary.MergedDictionaries>
+
+			<!-- Pages -->
+
+			<DataTemplate DataType="{x:Type viewModel:DiscoverViewModel}">
+				<view:DiscoverView/>
+			</DataTemplate>
+
+			<DataTemplate DataType="{x:Type viewModel:CategoryViewModel}">
+				<view:CategoryView/>
+			</DataTemplate>
+
+			<DataTemplate DataType="{x:Type viewModel:SearchViewModel}">
+				<view:SearchView/>
+			</DataTemplate>
+
+			<DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
+				<view:SettingsView/>
+			</DataTemplate>
+
+			<!-- Popups -->
+
+			<DataTemplate DataType="{x:Type popupViewModel:AboutPopupViewModel}">
+				<popupView:AboutPopup/>
+			</DataTemplate>
+
+			<DataTemplate DataType="{x:Type popupViewModel:UpdateAvailablePopupViewModel}">
+				<popupView:UpdateAvailablePopup/>
+			</DataTemplate>
+
+			<DataTemplate DataType="{x:Type popupViewModel:UpdateDownloadPopupViewModel}">
+				<popupView:UpdateDownloadPopup/>
+			</DataTemplate>
+
+			<DataTemplate DataType="{x:Type popupViewModel:UpdateFailedPopupViewModel}">
+				<popupView:UpdateFailedPopup/>
+			</DataTemplate>
 		</ResourceDictionary>
 	</Application.Resources>
 </Application>

@@ -7,7 +7,42 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="MVVM\View\CategoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\View\DiscoverView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MVVM\View\SearchView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\CategoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\DiscoverView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\Popups\AboutPopup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\Popups\UpdateAvailablePopup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\Popups\UpdateDownloadPopup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\Popups\UpdateFailedPopup.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\SearchView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\SettingsView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Theme\AccentColors\Aqua.xaml">
@@ -73,6 +108,9 @@
     <Page Update="Theme\CheckBoxTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Theme\ColorPickerTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Theme\Colors.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -88,6 +126,12 @@
     <Page Update="Theme\MenuButtonTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Theme\ProgressArcTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\ProgressButtonTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Theme\RadioSelectorButtonTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -95,6 +139,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Theme\TextBoxTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Theme\TextWithUnitTheme.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Theme\TitleBarButtonTheme.xaml">
