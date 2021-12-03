@@ -13,6 +13,9 @@
     <Compile Update="MVVM\View\DiscoverView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MVVM\View\DownloadView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MVVM\View\SearchView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,6 +28,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\DiscoverView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\DownloadView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\Popups\AboutPopup.xaml">

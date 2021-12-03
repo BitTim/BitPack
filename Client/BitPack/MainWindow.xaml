@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Title="BitPack"
 		Height="812" Width="1128"
-		MinHeight="812" MinWidth="872"
+		MinHeight="812" MinWidth="1128"
 		WindowStyle="None"
 		Background="Transparent"
 		AllowsTransparency="True">
@@ -196,16 +196,16 @@
 								 Command="{Binding SearchViewCommand}"
 								 Style="{DynamicResource MenuButtonTheme}"/>
 
-					<!--<RadioButton Content="History"
+					<RadioButton Content="Downloads"
 								 GroupName="Menu"
 								 Height="62"
 								 Margin="0, 0, 0, 16"
 								 FontSize="16"
-								 Tag="{Binding Source={StaticResource HistoryIcon}, Path=Data}"
-								 Command="{Binding HistoryViewCommand}"
+								 Tag="{Binding Source={StaticResource DownloadIcon}, Path=Data}"
+								 Command="{Binding DownloadViewCommand}"
 								 Style="{DynamicResource MenuButtonTheme}"/>
 
-					<RadioButton Content="Generators"
+					<!--<RadioButton Content="Generators"
 								 GroupName="Menu"
 								 Height="62"
 								 Margin="0, 0, 0, 16"

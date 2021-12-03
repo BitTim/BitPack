@@ -19,11 +19,13 @@ namespace BitPack.MVVM.ViewModel
 		public RelayCommand DiscoverViewCommand { get; set; }
 		public RelayCommand CategoryViewCommand { get; set; }
 		public RelayCommand SearchViewCommand { get; set; }
+		public RelayCommand DownloadViewCommand { get; set; }
 		public RelayCommand SettingsViewCommand { get; set; }
 
 		public DiscoverViewModel DiscoverVM { get; set; }
 		public CategoryViewModel CategoryVM { get; set; }
 		public SearchViewModel SearchVM { get; set; }
+		public DownloadViewModel DownloadVM { get; set; }
 		public SettingsViewModel SettingsVM { get; set; }
 
 		private AboutPopupViewModel AboutPopup { get; set; }
@@ -81,6 +83,7 @@ namespace BitPack.MVVM.ViewModel
 			DiscoverViewCommand = new RelayCommand(o => SetView(DiscoverVM)); ;
 			CategoryViewCommand = new RelayCommand(o => SetView(CategoryVM));
 			SearchViewCommand = new RelayCommand(o => SetView(SearchVM));
+			DownloadViewCommand = new RelayCommand(o => SetView(DownloadVM));
 			SettingsViewCommand = new RelayCommand(o => SetView(SettingsVM));
 
 			//TrackingDataHelper.LoadData();
@@ -106,11 +109,13 @@ namespace BitPack.MVVM.ViewModel
 			DiscoverVM = new DiscoverViewModel();
 			CategoryVM = new CategoryViewModel();
 			SearchVM = new SearchViewModel();
+			DownloadVM = new DownloadViewModel();
 			SettingsVM = new SettingsViewModel();
 
 			ViewModelManager.ViewModels.Add("Discover", DiscoverVM);
 			ViewModelManager.ViewModels.Add("Category", CategoryVM);
 			ViewModelManager.ViewModels.Add("Search", SearchVM);
+			ViewModelManager.ViewModels.Add("Download", DownloadVM);
 			ViewModelManager.ViewModels.Add("Settings", SettingsVM);
 
 			CurrentView = DiscoverVM;
