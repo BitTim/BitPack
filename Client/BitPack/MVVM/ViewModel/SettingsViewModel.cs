@@ -1,11 +1,7 @@
 ﻿using BitPack.Core.Shared;
 using BitPack.Core.Specific;
 using BitPack.MVVM.ViewModel.Popups;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BitPack.MVVM.ViewModel
 {
@@ -61,7 +57,7 @@ namespace BitPack.MVVM.ViewModel
 				if (!NoUpdate) SettingsHelper.CallUpdate();
 			}
 		}
-		
+
 		public string Channel
 		{
 			get => _channel;

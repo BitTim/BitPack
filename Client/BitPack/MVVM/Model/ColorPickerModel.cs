@@ -1,9 +1,8 @@
-﻿using System.Windows;
+﻿using BitPack.Core.Shared;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
-using BitPack.Core;
-using BitPack.Core.Shared;
 
 namespace BitPack.MVVM.Model
 {

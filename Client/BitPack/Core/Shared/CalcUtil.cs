@@ -14,7 +14,7 @@ namespace BitPack.Core.Shared
 
 			return ret;
 		}
-		
+
 		public static double CalcProgress(double total, double collected)
 		{
 			if (total <= 0) return 100;

@@ -1,13 +1,9 @@
 ﻿using BitPack.Core.Shared;
-using BitPack.Core.Specific;
 using BitPack.MVVM.ViewModel.Popups;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace BitPack.MVVM.ViewModel

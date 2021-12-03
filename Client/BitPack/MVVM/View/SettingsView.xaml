@@ -3,8 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:BitPack.MVVM.View"
-			 xmlns:validation="clr-namespace:BitPack.MVVM.Validation"
 			 xmlns:conv="clr-namespace:BitPack.MVVM.Converter" xmlns:viewmodel="clr-namespace:BitPack.MVVM.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:SettingsViewModel}"
 			 mc:Ignorable="d" 
              d:DesignHeight="780" d:DesignWidth="896">

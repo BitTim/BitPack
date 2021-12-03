@@ -1,11 +1,11 @@
-﻿using Microsoft.Win32;
+﻿using BitPack.Core.Specific;
+using BitPack.MVVM.ViewModel;
+using Microsoft.Win32;
 using Newtonsoft.Json.Linq;
 using System;
 using System.IO;
 using System.Linq;
 using System.Windows;
-using BitPack.MVVM.ViewModel;
-using BitPack.Core.Specific;
 
 namespace BitPack.Core.Shared
 {
@@ -84,7 +84,7 @@ namespace BitPack.Core.Shared
 
 			if (jo["username"] == null) resave = true;
 			else Data.Username = (string)jo["username"];
-			
+
 			if (jo["channel"] == null) resave = true;
 			else Data.Channel = (string)jo["channel"];
 

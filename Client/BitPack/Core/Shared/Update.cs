@@ -1,4 +1,7 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using BitPack.Core.Specific;
+using BitPack.MVVM.ViewModel;
+using BitPack.MVVM.ViewModel.Popups;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,9 +12,6 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Windows;
-using BitPack.MVVM.ViewModel;
-using BitPack.MVVM.ViewModel.Popups;
-using BitPack.Core.Specific;
 
 namespace BitPack.Core.Shared
 {
